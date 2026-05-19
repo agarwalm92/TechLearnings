@@ -1,0 +1,14 @@
+git init
+git status
+git add .
+git branch -M main
+git remote add origin repoURL
+git commit -m "commit msg"
+git push origin -u main (upstream, first time push)
+git push origin -uf main (upstream, force)
+
+git pull origin main
+git pull origin main --allow-unrelated-histories
+
+git clone -b branchName repoURL
+
